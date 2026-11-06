@@ -1,0 +1,10 @@
+Polices de FamIA
+
+Utilisées (libres, licence SIL OFL, déjà incluses) :
+  Unbounded-latin.woff2     titres      (proche de Horizon)
+  Figtree-latin.woff2       texte       (proche de TT Norms)
+  ShareTechMono-latin.woff2 étiquettes du cadre
+
+Pour passer à Horizon / TT Norms (payantes) : les installer sur l'appareil, elles passent automatiquement
+avant les polices libres. Pour les servir à tous les visiteurs, ajouter leurs fichiers ici et déclarer
+des @font-face dans src/styles/fonts.css (avec la licence web correspondante).

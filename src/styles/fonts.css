@@ -1,0 +1,13 @@
+/* Polices de FamIA, libres (licence SIL OFL) et hébergées localement :
+   - Unbounded : titres (large et géométrique, proche d'Horizon)
+   - Figtree   : texte (géométrique et chaleureuse, proche de TT Norms)
+   - Share Tech Mono : petites étiquettes du cadre
+   Pour utiliser Horizon / TT Norms (payantes), les installer ou ajouter leurs fichiers : elles passent avant. */
+@font-face{font-family:'Unbounded';font-style:normal;font-weight:200 900;font-display:swap;src:url('/fonts/Unbounded-latin.woff2') format('woff2')}
+@font-face{font-family:'Figtree';font-style:normal;font-weight:300 900;font-display:swap;src:url('/fonts/Figtree-latin.woff2') format('woff2')}
+@font-face{font-family:'Share Tech Mono';font-style:normal;font-weight:400;font-display:swap;src:url('/fonts/ShareTechMono-latin.woff2') format('woff2')}
+/* Horizon et TT Norms : utilisées seulement si elles sont installées sur l'appareil */
+@font-face{font-family:'Horizon';font-weight:400;src:local('Horizon'),local('Horizon Regular')}
+@font-face{font-family:'TT Norms';font-weight:400;src:local('TT Norms Regular'),local('TTNorms-Regular'),local('TT Norms Pro Regular')}
+@font-face{font-family:'TT Norms';font-weight:500;src:local('TT Norms Medium'),local('TTNorms-Medium'),local('TT Norms Pro Medium')}
+@font-face{font-family:'TT Norms';font-weight:700;src:local('TT Norms Bold'),local('TTNorms-Bold'),local('TT Norms Pro Bold')}

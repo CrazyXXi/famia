@@ -1,0 +1,31 @@
+/* landing : le mot reste au centre, assez petit pour laisser la place aux icônes */
+.land .word{font-size:min(10.5vw,22dvh)}
+/* Horizon est une police de titre large : tailles réduites, pas d'italique, interlignes aérés. */
+em{font-style:normal}
+.menu-panel a{font-size:min(5vw,54px)}
+.chatui .brand{font-size:26px}
+.chatui .hero-t{font-size:clamp(26px,3.2vw,44px);line-height:1.15}
+.chatui .page-t{font-size:clamp(28px,3.4vw,46px);line-height:1.12}
+.chatui .welcome h1{font-size:clamp(26px,3.4vw,42px);line-height:1.15}
+.chatui .game h2{font-size:clamp(28px,3.4vw,44px);line-height:1.12}
+.chatui .h3{font-size:24px}
+.chatui .tilt b{font-size:18px}
+.chatui .stepcard b{font-size:22px}
+.chatui .gcard b{font-size:26px}
+.chatui .panelcard h3{font-size:30px}
+.chatui .fact-t{font-size:22px;line-height:1.35}
+.chatui .lv-name{font-size:28px}
+.chatui .mini-level span{font-size:16px}
+.chatui .q{font-size:clamp(22px,2.6vw,32px);line-height:1.25}
+.chatui .qcard p{font-size:clamp(19px,2.3vw,25px);line-height:1.25}
+.chatui .why b{font-size:22px}
+.chatui .game-end h3{font-size:42px}
+.chatui .qcard.res b{font-size:24px}
+.chatui .recap b{font-size:20px}
+.chatui .ticket b{font-size:clamp(32px,6vw,48px)}
+.chatui .mobbar span{font-size:18px}
+@media (max-width:820px){
+/* graisse */
+.menu-panel a,.chatui .hero-t,.chatui .page-t,.chatui .welcome h1,.chatui .game h2,.chatui .h3,.chatui .tilt b,.chatui .stepcard b,.chatui .gcard b,.chatui .panelcard h3,.chatui .fact-t,.chatui .lv-name,.chatui .mini-level span,.chatui .q,.chatui .qcard p,.chatui .why b,.chatui .game-end h3,.chatui .qcard.res b,.chatui .recap b,.chatui .ticket b,.chatui .brand,.chatui .mobbar span{font-weight:500}
+.chatui .fact-t,.chatui .qcard p{font-weight:400}
+.chatui .hero-t,.chatui .page-t,.chatui .welcome h1,.chatui .game h2{letter-spacing:-.02em}

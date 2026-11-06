@@ -1,0 +1,19 @@
+/* Icônes de la landing en filigrane : traits très fins, presque transparents */
+.orbit{position:absolute;inset:0;z-index:4;pointer-events:none}
+.orbit .ico{position:absolute;left:var(--x);top:var(--y);transform:translate(-50%,-50%);pointer-events:auto;
+  display:flex;flex-direction:column;align-items:center;gap:10px;color:#3b2230;text-decoration:none;
+  animation:icofloat 9s ease-in-out var(--d,0s) infinite}
+.orbit .ico svg{width:clamp(56px,6vw,84px);height:auto;stroke-width:.9;opacity:.26;
+  transition:opacity .4s ease,transform .5s cubic-bezier(.22,.7,.2,1),color .4s}
+.orbit .ico span{font-family:var(--sans);font-size:12.5px;letter-spacing:.04em;color:#3b2230;opacity:0;transform:translateY(-4px);
+  transition:opacity .4s ease,transform .4s ease}
+.orbit .ico:hover svg,.orbit .ico:focus-visible svg{opacity:.75;color:#d0527c;transform:scale(1.08)}
+.orbit .ico:hover span,.orbit .ico:focus-visible span{opacity:.7;transform:none}
+@keyframes icofloat{50%{transform:translate(-50%,calc(-50% - 8px))}}
+@media (max-width:820px){
+  .orbit{inset:auto 10px calc(7dvh + 8px) 10px;display:grid;grid-template-columns:repeat(6,1fr);gap:2px}
+  .orbit .ico{position:static;transform:none;animation:none}
+  .orbit .ico svg{width:34px;opacity:.38}
+  .orbit .ico span{display:none}
+}
+@media (prefers-reduced-motion:reduce){.orbit .ico{animation:none}}
